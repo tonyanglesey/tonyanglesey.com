@@ -12,7 +12,6 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    // tailwindcss(),
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
