@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
-import { Send, Github, Linkedin, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { Send, Github, Linkedin, Twitter, Mail, Phone, MapPin, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -79,6 +79,9 @@ const Footer = () => {
               </Button>
               <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
                 <Twitter size={20} />
+              </Button>
+              <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
+                <Instagram size={20} />
               </Button>
             </div>
           </div>

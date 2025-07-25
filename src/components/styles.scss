@@ -1,0 +1,25 @@
+.video-container {
+  position: absolute;
+  max-height: 500px;
+  overflow: hidden;
+  top: 85px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+
+  .background-video {
+    opacity: 0.35;
+    // position: absolute;
+    width: 100%;
+    z-index: 998;
+  }
+}
+
+.home-content {
+  position: absolute;
+  z-index: 9999;
+  left: 65%;
+  right: 25px;
+  top: 300px;
+  min-height: 200px;
+}
