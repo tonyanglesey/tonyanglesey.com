@@ -43,9 +43,9 @@ const Hero = () => {
     >
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="block">Hello, I'm</span>
-            <span className="bg-gradient-primary bg-clip-text text-transparent">
+          <h1 className="font-bold mb-6">
+            <span className="block text-5xl md:text-7xl">Hello, I'm</span>
+            <span className="block text-5xl md:text-7xl bg-gradient-primary bg-clip-text text-transparent">
               Tony Anglesey
             </span>
           </h1>
