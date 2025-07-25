@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
 
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
+              <Button variant="ghost" size="icon" className="hover:text-white bg-accent hover:bg-opacity-50 rounded-full">
                 <Github size={20} />
               </Button>
               <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
@@ -160,7 +160,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-border pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 Alex Developer. All rights reserved. Built with React & Tailwind CSS.
+            © 2025 Tony Anglesey. All rights reserved. Built with React & Tailwind CSS.
           </p>
         </div>
       </div>
